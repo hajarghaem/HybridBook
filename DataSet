@@ -1,14 +1,14 @@
-@prefix : <http://uvdt.test.iminds.be/pub/hybrid/hybridbook#> .
+@prefix : <http://test.ile/pub/hybrid/hybridbook#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://uvdt.test.iminds.be/pub/hybrid/hybridbook > .
+@base < > .
 
-<http://uvdt.test.iminds.be/pub/hybrid/hybridbook> rdf:type owl:Ontology ;
+<http://test.ile/pub/hybrid/hybridbook> rdf:type owl:Ontology ;
                                                                    
-owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
+owl:versionIRI <http://test.ile/pub/hybrid/hybridbook> .
 
 
 #################################################################
@@ -18,25 +18,25 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 #################################################################
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#hasColor
+###  http://test.ile/pub/hybrid/hybridbook#hasColor
 
 :hasColor rdf:type owl:ObjectProperty .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#hasHeat
+###  http://test.ile/pub/hybrid/hybridbook#hasHeat
 
 :hasHeat rdf:type owl:ObjectProperty .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#hasShake
+###  http://test.ile/pub/hybrid/hybridbook#hasShake
 
 :hasShake rdf:type owl:ObjectProperty .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#hasSound
+###  http://test.ile/pub/hybrid/hybridbook#hasSound
 
 :hasSound rdf:type owl:ObjectProperty .
 
@@ -51,37 +51,37 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 #################################################################
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Animal
+###  http://test.ile/pub/hybrid/hybridbook#Animal
 
 :Animal rdf:type owl:Class .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Color
+###  http://test.ile/pub/hybrid/hybridbook#Color
 
 :Color rdf:type owl:Class .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Emotion
+###  http://test.ile/pub/hybrid/hybridbook#Emotion
 
 :Emotion rdf:type owl:Class .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Event
+###  http://test.ile/pub/hybrid/hybridbook#Event
 
 :Event rdf:type owl:Class .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Temperature 
+###  http://test.ile/pub/hybrid/hybridbook#Temperature 
 
 :Temperature  rdf:type owl:Class .
  
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Speed
+###  http://test.ile/pub/hybrid/hybridbook#Speed
 
 :Speed rdf:type owl:Class .
 
@@ -92,7 +92,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 #################################################################
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Afraid
+###  http://test.ile/pub/hybrid/hybridbook#Afraid
 
 :Afraid rdf:type :Emotion ,
                  owl:NamedIndividual ;
@@ -101,7 +101,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Angry
+###  http://test.ile/pub/hybrid/hybridbook#Angry
 
 :Angry rdf:type :Emotion ,
                 owl:NamedIndividual ;
@@ -110,7 +110,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Bird
+###  http://test.ile/pub/hybrid/hybridbook#Bird
 
 :Bird rdf:type :Animal ,
                owl:NamedIndividual ;
@@ -119,14 +119,14 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Blue
+###  http://test.ile/pub/hybrid/hybridbook#Blue
 
 :Blue rdf:type :Color ,
                owl:NamedIndividual .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Cold
+###  http://test.ile/pub/hybrid/hybridbook#Cold
 
 :Cold rdf:type :Temperature  ,
                owl:NamedIndividual ;
@@ -135,7 +135,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Disgusted
+###  http://test.ile/pub/hybrid/hybridbook#Disgusted
 
 :Disgusted rdf:type :Emotion ,
                     owl:NamedIndividual ;
@@ -144,7 +144,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Earthquake
+###  http://test.ile/pub/hybrid/hybridbook#Earthquake
 
 :Earthquake rdf:type :Event ,
                      owl:NamedIndividual ;
@@ -153,21 +153,21 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Fast
+###  http://test.ile/pub/hybrid/hybridbook#Fast
 
 :Fast rdf:type :Speed ,
                owl:NamedIndividual .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Green
+###  http://test.ile/pub/hybrid/hybridbook#Green
 
 :Green rdf:type :Color ,
                 owl:NamedIndividual .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Happy
+###  http://test.ile/pub/hybrid/hybridbook#Happy
 
 :Happy rdf:type :Emotion ,
                 owl:NamedIndividual ;
@@ -176,28 +176,28 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Orange
+###  http://test.ile/pub/hybrid/hybridbook#Orange
 
 :Orange rdf:type :Color ,
                  owl:NamedIndividual .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Purple
+###  http://test.ile/pub/hybrid/hybridbook#Purple
 
 :Purple rdf:type :Color ,
                  owl:NamedIndividual .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Red
+###  http://test.ile/pub/hybrid/hybridbook#Red
 
 :Red rdf:type :Color ,
               owl:NamedIndividual .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Sad
+###  http://test.ile/pub/hybrid/hybridbook#Sad
 
 :Sad rdf:type :Emotion ,
               owl:NamedIndividual ;
@@ -206,14 +206,14 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Slow
+###  http://test.ile/pub/hybrid/hybridbook#Slow
 
 :Slow rdf:type :Speed ,
                owl:NamedIndividual .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Sparrow
+###  http://test.ile/pub/hybrid/hybridbook#Sparrow
 
 :Sparrow rdf:type owl:NamedIndividual ;
          
@@ -221,7 +221,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Surprised
+###  http://test.ile/pub/hybrid/hybridbook#Surprised
 
 :Surprised rdf:type :Emotion ,
                     owl:NamedIndividual ;
@@ -230,7 +230,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Thunderstorm
+###  http://test.ile/pub/hybrid/hybridbook#Thunderstorm
 
 :Thunderstorm rdf:type :Event ,
                        owl:NamedIndividual ;
@@ -239,7 +239,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Warm
+###  http://test.ile/pub/hybrid/hybridbook#Warm
 
 :Warm rdf:type :Temperature ,
                owl:NamedIndividual ;
@@ -248,7 +248,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Wolf
+###  http://test.ile/pub/hybrid/hybridbook#Wolf
 
 :Wolf rdf:type :Animal ,
                owl:NamedIndividual ;
@@ -257,7 +257,7 @@ owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybridbook> .
 
 
 
-###  http://uvdt.test.iminds.be/pub/hybrid/hybridbook#Yellow
+###  http://test.ile/pub/hybrid/hybridbook#Yellow
 
 :Yellow rdf:type :Color ,
                  owl:NamedIndividual .
