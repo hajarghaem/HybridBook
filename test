@@ -1,0 +1,71 @@
+@prefix ab: <http://uvdt.test.iminds.be/pub/hybrid/hybb> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+<http://uvdt.test.iminds.be/pub/hybrid/hybb> rdf:type owl:Ontology ;
+        owl:versionIRI <http://uvdt.test.iminds.be/pub/hybrid/hybb> .
+hasColor rdf:type owl:ObjectProperty .
+hasHeat rdf:type owl:ObjectProperty .
+hasHeat rdf:type owl:ObjectProperty .
+hasShake rdf:type owl:ObjectProperty .
+hasSound rdf:type owl:ObjectProperty .
+Animal rdf:type owl:Class .
+Color rdf:type owl:Class .
+Emotion rdf:type owl:Class .
+Event rdf:type owl:Class .
+Temperature  rdf:type owl:Class .
+Speed rdf:type owl:Class .
+Afraid rdf:type Emotion;
+        hasColor "Orange" .
+Angry rdf:type Emotion ,
+                owl:NamedIndividual ;
+       hasColor Red .
+Bird rdf:type Animal;
+      hasSound "Bird" .
+Blue rdf:type Color ,
+               owl:NamedIndividual .
+Cold rdf:type Temperature  ,
+               owl:NamedIndividual ;
+      hasHeat Cold .
+Disgusted rdf:type Emotion ,
+                   owl:NamedIndividual ;
+           hasColor Purple .
+Earthquake rdf:type Event ,
+                     owl:NamedIndividual ;
+            hasShake Fast .
+Fast rdf:type Speed ,
+               owl:NamedIndividual .
+Green rdf:type Color ,
+                owl:NamedIndividual .
+Happy rdf:type Emotion ,
+                owl:NamedIndividual ;
+       hasColor Green .
+Orange rdf:type Color ,
+                 owl:NamedIndividual .
+Purple rdf:type Color ,
+                 owl:NamedIndividual .
+Red rdf:type Color ,
+              owl:NamedIndividual .
+Sad rdf:type Emotion ,
+              owl:NamedIndividual ;
+     hasColor Blue .
+Slow rdf:type Speed ,
+               owl:NamedIndividual .
+Sparrow rdf:type owl:NamedIndividual ;
+         hasSound Sparrow .
+Surprised rdf:type Emotion ,
+                    owl:NamedIndividual ;
+           hasColor Yellow .
+Thunderstorm rdf:type Event ,
+                       owl:NamedIndividual ;
+              hasSound Thunderstorm .
+Warm rdf:type Temperature ,
+               owl:NamedIndividual ;
+      hasHeat Warm .
+Wolf rdf:type Animal ,
+               owl:NamedIndividual ;
+      hasSound Wolf .
+Yellow rdf:type Color ,
+                 owl:NamedIndividual .
